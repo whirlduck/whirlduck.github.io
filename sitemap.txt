@@ -1,0 +1,17 @@
+https://psyduckman.github.io/docs/index.html
+https://psyduckman.github.io/docs/getting-started/index.html
+https://psyduckman.github.io/docs/getting-started/TestSub-menu.html
+https://psyduckman.github.io/docs/getting-started/installation.html
+https://psyduckman.github.io/docs/third-party-services/index.html
+https://psyduckman.github.io/schedule/index.html
+https://psyduckman.github.io/about/index.html
+https://psyduckman.github.io/404/index.html
+https://psyduckman.github.io/categories/index.html
+https://psyduckman.github.io/tags/index.html
+https://psyduckman.github.io/2023/09/20/hello-world/
+https://psyduckman.github.io/
+https://psyduckman.github.io/tags/Testing/
+https://psyduckman.github.io/tags/Another-Tag/
+https://psyduckman.github.io/tags/Study/
+https://psyduckman.github.io/categories/TestCategory/
+https://psyduckman.github.io/categories/TestCategory/Java/
