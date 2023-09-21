@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>blog-2</title>
+    <url>/2023/09/21/blog-2/</url>
+    <content><![CDATA[<h1 id="测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</h1><h4 id="标记插件学习"><a href="#标记插件学习" class="headerlink" title="标记插件学习"></a>标记插件学习</h4><h2 id="next-主题-标签Hexo-标签"><a href="#next-主题-标签Hexo-标签" class="headerlink" title="next 主题-标签Hexo 标签"></a><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zLw==">next 主题-标签<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo 标签<i class="fa fa-external-link-alt"></i></span></h2><h2 id="title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags"><a href="#title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags" class="headerlink" title="title: Tag Pluginsdescription: NexT User Docs – NexT Supported Tags"></a>title: Tag Plugins<br>description: NexT User Docs – NexT Supported Tags</h2><p>标签插件是一种制作 Hexo 支持的特殊样式内容的方法。例如，我们无法在标准 Markdown 中显示具有自定义大小的图像。然后我们可以使用标签插件来解决它。Hexo有很多标签<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo has a lot of tags<i class="fa fa-external-link-alt"></i></span>这可以帮助用户。Hexo还具有主题接口，使主题能够创建自己的标签。NexT提供以下标签：</p>
+<ul>
+<li><a href="/https://theme-next.js.org/docs/tag-plugins/button">Button</a></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zL2Nhbml1c2U=">Caniuse<i class="fa fa-external-link-alt"></i></span></li>
+<li><a href="#Centered-Quote">Centered Quote</a></li>
+<li><a href="/docs/tag-plugins/group-pictures.html">Group Pictures</a></li>
+<li><a href="/docs/tag-plugins/label.html">Label</a></li>
+<li><a href="/docs/tag-plugins/link-grid.html">Link Grid</a></li>
+<li><a href="/docs/tag-plugins/mermaid.html">Mermaid</a></li>
+<li><a href="/doc/tag-plugins/wavedrom.html">WaveDrom</a></li>
+<li><a href="/docs/tag-plugins/note.html">Note</a></li>
+<li><a href="/docs/tag-plugins/pdf.html">PDF</a></li>
+<li><a href="/docs/tag-plugins/tabs.html">Tabs</a></li>
+<li><a href="#Video">Video</a></li>
+</ul>
+<p>These tag plugins are only available in the theme NexT. If you switch to other Hexo themes, they may cause rendering errors.</p>
+<h3 id="Centered-Quote"><a href="#Centered-Quote" class="headerlink" title="Centered Quote"></a>Centered Quote</h3><p>此标签将在其前后各有两行引用，引用的文本将居中。使用居中引号时，如果我们有多行文本，并且每行都有不同的长度，则引用不会对称，因此建议在只有单行文本时使用。例如在文章之前所有文章之后做一个总结。</p>
+<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">centerquote</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcenterquote</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Elegant in code, simple in core</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Elegant in code, simple in core</p>
+
+</blockquote>
+
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> url %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>Psyduckman&#39;s First Blog</title>
+    <url>/2023/09/20/blog-01/</url>
+    <content><![CDATA[<hr>
+<hr>
+<hr>
+<h2 id="博客收藏"><a href="#博客收藏" class="headerlink" title="博客收藏"></a>博客收藏</h2><p><span class="exturl" data-url="aHR0cHM6Ly9jYWNoZWNsb3VkLmdpdGh1Yi5pby8=">付磊——阿里云数据库技术专家(Redis方向)<i class="fa fa-external-link-alt"></i></span></p>
+<h4 id="1-显示-阅读文"><a href="#1-显示-阅读文" class="headerlink" title="1.显示 阅读文"></a>1.显示 阅读文<span id="more"></span></h4><p> 序言测试，通常需要在主页中显示文章的某些部分，然后提供指向完整文章的链接<!-- more --></p>
+<h4 id="2-代码块测试"><a href="#2-代码块测试" class="headerlink" title="2.代码块测试"></a>2.代码块测试</h4><p> 显示复制按钮</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块</span><br></pre></td></tr></table></figure>
+<h4 id="3-Hexo有两个内置的语法高亮库，highlight-js和prismjs。本教程向您展示如何将-Hexo-的内置语法突出显示集成到模板中"><a href="#3-Hexo有两个内置的语法高亮库，highlight-js和prismjs。本教程向您展示如何将-Hexo-的内置语法突出显示集成到模板中" class="headerlink" title="3.Hexo有两个内置的语法高亮库，highlight.js和prismjs。本教程向您展示如何将 Hexo 的内置语法突出显示集成到模板中"></a>3.Hexo有两个内置的语法高亮库，highlight.js和prismjs。本教程向您展示如何将 Hexo 的内置语法突出显示集成到模板中</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">学习地址：https://hexo.io/docs/syntax-highlight</span><br><span class="line">两种效果分别展示：https://theme-next.js.org/highlight/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><figcaption><span>[title] [lang:language] [url] [link text] [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><figcaption><span>[title] [lang:language] [url] [link text] [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><figcaption><span>[title] [url] [link text] [additional options]</span></figcaption><table><tr><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure>
+<h4 id="4-字体定制"><a href="#4-字体定制" class="headerlink" title="4.字体定制"></a>4.字体定制</h4><p>全局字体：整个网站中使用的字体。<br>标题字体：网站标题使用的字体。<br>标题字体：文章中标题使用的字体（h1、h2、h3、h4、h5、h6）。<br>文章字体：文章使用的字体。<br>代码字体：文章中代码块使用的字体。</p>
+<ul>
+<li>每种字体都将用作此类的第一个字体，如果它们不可用，NexT 将回退到内部字体设置。</li>
+</ul>
+<p>非代码字体：回退到”PingFang SC”, “Microsoft YaHei”, sans-serif<br>代码字体：回退到consolas, Menlo, “PingFang SC”, “Microsoft YaHei”, monospace</p>
+<ul>
+<li>您可以为每个选项应用多个字体系列。这对于经常同时写中文和英文的人来说特别有用。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>TestCategory</category>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Testing</tag>
+        <tag>Another Tag</tag>
+        <tag>Study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog-3</title>
+    <url>/2023/09/21/blog-3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>blog-34</title>
+    <url>/2023/09/21/blog-34/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>blog-4</title>
+    <url>/2023/09/21/blog-4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/09/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+</search>

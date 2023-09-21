@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"psyduckman.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.18.1","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUpmenu"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"psyduckman.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.18.1","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUpmenu"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 <meta property="og:type" content="blog">
@@ -29,7 +29,7 @@
 <meta property="og:description" content="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-09-20T23:20:24.000Z">
-<meta property="article:modified_time" content="2023-09-21T00:13:14.691Z">
+<meta property="article:modified_time" content="2023-09-21T03:58:47.409Z">
 <meta property="article:author" content="Psyduckman">
 <meta property="article:tag" content="about psyduck">
 <meta name="twitter:card" content="summary">
@@ -84,6 +84,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -92,11 +93,37 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">6</span></a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li><li class="menu-item menu-item-custom-user"><a href="/custom-name/" rel="section"><i class="fa-solid fa-mountain-sun fa-fw"></i>custom-user</a></li><li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </header>
         
@@ -116,7 +143,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%87%E9%95%BF%E6%A0%87%E9%A2%98Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><span class="nav-number">1.</span> <span class="nav-text">测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.0.0.1.</span> <span class="nav-text"></span></a></li></ol></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%87%E9%95%BF%E6%A0%87%E9%A2%98Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><span class="nav-number">1.</span> <span class="nav-text">测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E8%AE%B0%E6%8F%92%E4%BB%B6%E5%AD%A6%E4%B9%A0"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">标记插件学习</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#next-%E4%B8%BB%E9%A2%98-%E6%A0%87%E7%AD%BEHexo-%E6%A0%87%E7%AD%BE"><span class="nav-number">1.1.</span> <span class="nav-text">next 主题-标签Hexo 标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#title-Tag-Pluginsdescription-NexT-User-Docs-%E2%80%93-NexT-Supported-Tags"><span class="nav-number">1.2.</span> <span class="nav-text">title: Tag Pluginsdescription: NexT User Docs – NexT Supported Tags</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Centered-Quote"><span class="nav-number">1.2.1.</span> <span class="nav-text">Centered Quote</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Usage"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">Usage</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Examples"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">Examples</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Video"><span class="nav-number">1.2.2.</span> <span class="nav-text">Video</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Usage-1"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">Usage</span></a></li></ol></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -185,29 +212,7 @@
     </div>
 
     
-        <div class="sidebar-inner sidebar-post-related">
-          <div class="animated">
-              <div class="links-of-blogroll-title"><i class="fa fa-signs-post fa-fw"></i>
-    相关文章
-  </div>
-  <ul class="popular-posts">
-    <li class="popular-posts-item">
-      <a class="popular-posts-link" href="/2023/09/20/hello-world/" rel="bookmark">
-        <time class="popular-posts-time">2023-09-20</time>
-        <br>
-      Hello World
-      </a>
-    </li>
-    <li class="popular-posts-item">
-      <a class="popular-posts-link" href="/2023/09/20/blog-01/" rel="bookmark">
-        <time class="popular-posts-time">2023-09-20</time>
-        <br>
-      Psyduckman's First Blog
-      </a>
-    </li>
-  </ul>
-
-          </div>
+        <div class="pjax">
         </div>
   </aside>
 
@@ -243,7 +248,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          blog-2
+          blog-2<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL3VzZXItbmFtZS9yZXBvLW5hbWUvdHJlZS9icmFuY2gtbmFtZS9zdWJkaXJlY3RvcnktbmFtZS9fcG9zdHMvYmxvZy0yLm1k" title="编辑"><i class="fa fa-pen-nib"></i></span>
         </h1>
 
         <div class="post-meta-container">
@@ -255,7 +260,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-21 07:20:24 / 修改时间：08:13:14" itemprop="dateCreated datePublished" datetime="2023-09-21T07:20:24+08:00">2023-09-21</time>
+      <time title="创建时间：2023-09-21 07:20:24 / 修改时间：11:58:47" itemprop="dateCreated datePublished" datetime="2023-09-21T07:20:24+08:00">2023-09-21</time>
     </span>
 
   
@@ -267,8 +272,36 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</h1><h4 id=""><a href="#" class="headerlink" title=""></a></h4><p> 序言测试，通常需要在主页中显示文章的某些部分，然后提供指向完整文章的链接<span id="more"></span></p>
+    <div class="post-body" itemprop="articleBody"><h1 id="测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</h1><h4 id="标记插件学习"><a href="#标记插件学习" class="headerlink" title="标记插件学习"></a>标记插件学习</h4><h2 id="next-主题-标签Hexo-标签"><a href="#next-主题-标签Hexo-标签" class="headerlink" title="next 主题-标签Hexo 标签"></a><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zLw==">next 主题-标签<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo 标签<i class="fa fa-external-link-alt"></i></span></h2><h2 id="title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags"><a href="#title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags" class="headerlink" title="title: Tag Pluginsdescription: NexT User Docs – NexT Supported Tags"></a>title: Tag Plugins<br>description: NexT User Docs – NexT Supported Tags</h2><p>标签插件是一种制作 Hexo 支持的特殊样式内容的方法。例如，我们无法在标准 Markdown 中显示具有自定义大小的图像。然后我们可以使用标签插件来解决它。Hexo有很多标签<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo has a lot of tags<i class="fa fa-external-link-alt"></i></span>这可以帮助用户。Hexo还具有主题接口，使主题能够创建自己的标签。NexT提供以下标签：</p>
+<ul>
+<li><a href="/https://theme-next.js.org/docs/tag-plugins/button">Button</a></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zL2Nhbml1c2U=">Caniuse<i class="fa fa-external-link-alt"></i></span></li>
+<li><a href="#Centered-Quote">Centered Quote</a></li>
+<li><a href="/docs/tag-plugins/group-pictures.html">Group Pictures</a></li>
+<li><a href="/docs/tag-plugins/label.html">Label</a></li>
+<li><a href="/docs/tag-plugins/link-grid.html">Link Grid</a></li>
+<li><a href="/docs/tag-plugins/mermaid.html">Mermaid</a></li>
+<li><a href="/doc/tag-plugins/wavedrom.html">WaveDrom</a></li>
+<li><a href="/docs/tag-plugins/note.html">Note</a></li>
+<li><a href="/docs/tag-plugins/pdf.html">PDF</a></li>
+<li><a href="/docs/tag-plugins/tabs.html">Tabs</a></li>
+<li><a href="#Video">Video</a></li>
+</ul>
+<p>These tag plugins are only available in the theme NexT. If you switch to other Hexo themes, they may cause rendering errors.</p>
+<h3 id="Centered-Quote"><a href="#Centered-Quote" class="headerlink" title="Centered Quote"></a>Centered Quote</h3><p>此标签将在其前后各有两行引用，引用的文本将居中。使用居中引号时，如果我们有多行文本，并且每行都有不同的长度，则引用不会对称，因此建议在只有单行文本时使用。例如在文章之前所有文章之后做一个总结。</p>
+<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">centerquote</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcenterquote</span> %&#125;</span></span><br></pre></td></tr></table></figure>
 
+<p>or</p>
+<figure class="highlight jinja"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h4><figure class="highlight jinja"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Elegant in code, simple in core</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Elegant in code, simple in core</p>
+
+</blockquote>
+
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> url %&#125;</span></span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -460,9 +493,12 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script><script src="/js/pjax.js"></script>
 
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
 
 
 
