@@ -222,7 +222,7 @@ body {
   box-sizing: border-box;
   color: var(--text-color);
   font-family: Lato,Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -2531,6 +2531,9 @@ ul.breadcrumb li:last-child {
     border-bottom-color: #eee;
     color: #eee;
   }
+}
+.utterances {
+  max-width: unset;
 }
 .search-active {
   overflow: hidden;

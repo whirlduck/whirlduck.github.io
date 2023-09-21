@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>blog-2</title>
-    <url>/2023/09/21/blog-2/</url>
-    <content><![CDATA[<h1 id="测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</h1><h4 id="标记插件学习"><a href="#标记插件学习" class="headerlink" title="标记插件学习"></a>标记插件学习</h4><h2 id="next-主题-标签Hexo-标签"><a href="#next-主题-标签Hexo-标签" class="headerlink" title="next 主题-标签Hexo 标签"></a><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zLw==">next 主题-标签<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo 标签<i class="fa fa-external-link-alt"></i></span></h2><h2 id="title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags"><a href="#title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags" class="headerlink" title="title: Tag Pluginsdescription: NexT User Docs – NexT Supported Tags"></a>title: Tag Plugins<br>description: NexT User Docs – NexT Supported Tags</h2><p>标签插件是一种制作 Hexo 支持的特殊样式内容的方法。例如，我们无法在标准 Markdown 中显示具有自定义大小的图像。然后我们可以使用标签插件来解决它。Hexo有很多标签<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo has a lot of tags<i class="fa fa-external-link-alt"></i></span>这可以帮助用户。Hexo还具有主题接口，使主题能够创建自己的标签。NexT提供以下标签：</p>
-<ul>
-<li><a href="/https://theme-next.js.org/docs/tag-plugins/button">Button</a></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zL2Nhbml1c2U=">Caniuse<i class="fa fa-external-link-alt"></i></span></li>
-<li><a href="#Centered-Quote">Centered Quote</a></li>
-<li><a href="/docs/tag-plugins/group-pictures.html">Group Pictures</a></li>
-<li><a href="/docs/tag-plugins/label.html">Label</a></li>
-<li><a href="/docs/tag-plugins/link-grid.html">Link Grid</a></li>
-<li><a href="/docs/tag-plugins/mermaid.html">Mermaid</a></li>
-<li><a href="/doc/tag-plugins/wavedrom.html">WaveDrom</a></li>
-<li><a href="/docs/tag-plugins/note.html">Note</a></li>
-<li><a href="/docs/tag-plugins/pdf.html">PDF</a></li>
-<li><a href="/docs/tag-plugins/tabs.html">Tabs</a></li>
-<li><a href="#Video">Video</a></li>
-</ul>
-<p>These tag plugins are only available in the theme NexT. If you switch to other Hexo themes, they may cause rendering errors.</p>
-<h3 id="Centered-Quote"><a href="#Centered-Quote" class="headerlink" title="Centered Quote"></a>Centered Quote</h3><p>此标签将在其前后各有两行引用，引用的文本将居中。使用居中引号时，如果我们有多行文本，并且每行都有不同的长度，则引用不会对称，因此建议在只有单行文本时使用。例如在文章之前所有文章之后做一个总结。</p>
-<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">centerquote</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcenterquote</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p>or</p>
-<figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Elegant in code, simple in core</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center">
-<p>Elegant in code, simple in core</p>
-
-</blockquote>
-
-<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> url %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>blog-3</title>
+    <url>/2023/09/21/blog-3/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Psyduckman&#39;s First Blog</title>
@@ -70,14 +41,43 @@
       </tags>
   </entry>
   <entry>
-    <title>blog-3</title>
-    <url>/2023/09/21/blog-3/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>blog-34</title>
     <url>/2023/09/21/blog-34/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>blog-2</title>
+    <url>/2023/09/21/blog-2/</url>
+    <content><![CDATA[<h1 id="测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#测试过长标题Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>测试过长标题Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</h1><h4 id="标记插件学习"><a href="#标记插件学习" class="headerlink" title="标记插件学习"></a>标记插件学习</h4><h2 id="next-主题-标签Hexo-标签"><a href="#next-主题-标签Hexo-标签" class="headerlink" title="next 主题-标签Hexo 标签"></a><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zLw==">next 主题-标签<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo 标签<i class="fa fa-external-link-alt"></i></span></h2><h2 id="title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags"><a href="#title-Tag-Pluginsdescription-NexT-User-Docs-–-NexT-Supported-Tags" class="headerlink" title="title: Tag Pluginsdescription: NexT User Docs – NexT Supported Tags"></a>title: Tag Plugins<br>description: NexT User Docs – NexT Supported Tags</h2><p>标签插件是一种制作 Hexo 支持的特殊样式内容的方法。例如，我们无法在标准 Markdown 中显示具有自定义大小的图像。然后我们可以使用标签插件来解决它。Hexo有很多标签<span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">Hexo has a lot of tags<i class="fa fa-external-link-alt"></i></span>这可以帮助用户。Hexo还具有主题接口，使主题能够创建自己的标签。NexT提供以下标签：</p>
+<ul>
+<li><a href="/https://theme-next.js.org/docs/tag-plugins/button">Button</a></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zL2Nhbml1c2U=">Caniuse<i class="fa fa-external-link-alt"></i></span></li>
+<li><a href="#Centered-Quote">Centered Quote</a></li>
+<li><a href="/docs/tag-plugins/group-pictures.html">Group Pictures</a></li>
+<li><a href="/docs/tag-plugins/label.html">Label</a></li>
+<li><a href="/docs/tag-plugins/link-grid.html">Link Grid</a></li>
+<li><a href="/docs/tag-plugins/mermaid.html">Mermaid</a></li>
+<li><a href="/doc/tag-plugins/wavedrom.html">WaveDrom</a></li>
+<li><a href="/docs/tag-plugins/note.html">Note</a></li>
+<li><a href="/docs/tag-plugins/pdf.html">PDF</a></li>
+<li><a href="/docs/tag-plugins/tabs.html">Tabs</a></li>
+<li><a href="#Video">Video</a></li>
+</ul>
+<p>These tag plugins are only available in the theme NexT. If you switch to other Hexo themes, they may cause rendering errors.</p>
+<h3 id="Centered-Quote"><a href="#Centered-Quote" class="headerlink" title="Centered Quote"></a>Centered Quote</h3><p>此标签将在其前后各有两行引用，引用的文本将居中。使用居中引号时，如果我们有多行文本，并且每行都有不同的长度，则引用不会对称，因此建议在只有单行文本时使用。例如在文章之前所有文章之后做一个总结。</p>
+<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">centerquote</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcenterquote</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>or</p>
+<figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Something</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="language-xml">Elegant in code, simple in core</span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Elegant in code, simple in core</p>
+
+</blockquote>
+
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> url %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
     <title>blog-4</title>
