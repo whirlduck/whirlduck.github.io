@@ -1,0 +1,14 @@
+http://situwumu.github.io/2023/09/21/blog-1/
+http://situwumu.github.io/docs/index.html
+http://situwumu.github.io/docs/TEST.html
+http://situwumu.github.io/third-party-services/index.html
+http://situwumu.github.io/about/index.html
+http://situwumu.github.io/categories/index.html
+http://situwumu.github.io/tags/index.html
+http://situwumu.github.io/2023/09/21/hello-world/
+http://situwumu.github.io/
+http://situwumu.github.io/tags/Testing/
+http://situwumu.github.io/tags/Another-Tag/
+http://situwumu.github.io/tags/Study/
+http://situwumu.github.io/categories/JAVA/
+http://situwumu.github.io/categories/JAVA/Redis/

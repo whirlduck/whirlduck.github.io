@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://situwumu.github.io/2023/09/21/blog-1/</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/docs/index.html</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/docs/TEST.html</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/third-party-services/index.html</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/about/index.html</loc>
+    
+    <lastmod>2023-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/2023/09/21/hello-world/</loc>
+    
+    <lastmod>2023-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://situwumu.github.io/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://situwumu.github.io/tags/Testing/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/tags/Another-Tag/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/tags/Study/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://situwumu.github.io/categories/JAVA/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://situwumu.github.io/categories/JAVA/Redis/</loc>
+    <lastmod>2023-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
